@@ -38,7 +38,7 @@ import { TextTrails } from "@/registry/components/texttrails";
 
 In the repo **Settings → Pages**: deploy from branch **`main`** with folder **`/` (root)** — not `/docs`.
 
-- Registry JSON: [`/r/registry.json`](https://joelachance.github.io/text-ui/r/registry.json)
+- Registry index (same content): [`/r/registry.json`](https://joelachance.github.io/text-ui/r/registry.json) · [`/r/text-ui.json`](https://joelachance.github.io/text-ui/r/text-ui.json) — the second matches the `@text-ui` namespace in the URL; **`npx shadcn add`** still uses the component name, e.g. `@text-ui/texttrails` → [`/r/texttrails.json`](https://joelachance.github.io/text-ui/r/texttrails.json).
 - **`/docs`** redirects to the [README on GitHub](https://github.com/joelachance/text-ui#readme).
 
 After changing the component, run `bun run pages:prepare` and commit the updated `r/` folder.
