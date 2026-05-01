@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "echo-text",
-  "homepage": "https://github.com/joelachance/text-trail",
+  "name": "text-trail",
+  "homepage": "https://joelachance.github.io/text-trail/",
   "items": [
     {
       "name": "text-trail",
